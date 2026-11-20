@@ -23,7 +23,7 @@ public class Health : MonoBehaviour
     [Tooltip("How long, after the damage is applied, will the object be invulnerable?")]
     [SerializeField] private float safeTime = 1f;
     
-    private float currentHealth;
+    public float currentHealth;
     private float invulnerabilityTimer;
     private bool isHurt = false;
     
