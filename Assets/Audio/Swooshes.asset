@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-1826292632266203162
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: swosh-17_{-1826292632266203162}
+  m_AudioClip: {fileID: 8300000, guid: b28f88f61d63da14a8d5822860b16efe, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &636709576135844201
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: swosh-08_{636709576135844201}
+  m_AudioClip: {fileID: 8300000, guid: c9eb70621b893c946af802dd449fb3f7, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &1604831440924012693
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: swosh-01_{1604831440924012693}
+  m_AudioClip: {fileID: 8300000, guid: 61875ee250a77c14e9c1cddafe72523d, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1233149941 &5995340823597609034
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: swosh-16_{5995340823597609034}
+  m_AudioClip: {fileID: 8300000, guid: 26a4fdc0d75a69a40b4724a7137c556f, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Swooshes
+  m_Volume: 0
+  m_Pitch: 747
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 413.79218}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 1604831440924012693}
+  - {fileID: 636709576135844201}
+  - {fileID: 5995340823597609034}
+  - {fileID: -1826292632266203162}
+  - {fileID: 8511292175098656193}
+  m_AvoidRepeatingLast: 0
+  m_PlaybackMode: 1
+  m_TriggerMode: 0
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 1
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &8511292175098656193
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: swosh-22_{8511292175098656193}
+  m_AudioClip: {fileID: 8300000, guid: 7bdabae665ee29740a807779eef9f769, type: 3}
+  m_Volume: 0
+  m_Enabled: 1
